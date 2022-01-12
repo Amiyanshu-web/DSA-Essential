@@ -15,5 +15,5 @@ int main(){
 		curr_sum+=arr[i]-arr[i-k];
 		max_sum=max(curr_sum,max_sum);
 	}
-	cout<<max_sum;
+	cout<<max_sum; 
 }

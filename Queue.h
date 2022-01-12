@@ -1,6 +1,6 @@
 
 
-
+//Queue using array data structure
 class Queue{
 	int *arr;
 	int cs;
@@ -43,3 +43,56 @@ public:
 	}
 
 }
+
+
+//Queue using linked list
+
+
+/*using namespace std;
+
+
+template<typename T>
+class queue; 	
+
+
+
+template<typename T>
+class node{
+public:
+	T data;
+	node<T> *next;
+
+	node(T d){
+		data=d;
+	}
+
+}
+class queue{
+	node<T> *head;
+public:
+    queue(){
+        head=NULL;
+    }
+    void push(T data){
+        node<T> *n=new node(data);
+        while(head->next!=NULL){
+            head=head->next;
+        }
+        head->next=n;
+        n->next=NULL;
+    }
+    void pop(){
+        node<T> *temp=head;
+        head=head->next;
+        delete(temp);
+
+    }
+    int top(){
+        while(head->next!=NULL){
+            head=head->next;
+        }
+        return head->data;
+    }
+    
+}
+*/
